@@ -33,23 +33,12 @@ function resize_text(
 	min_size: number,
 	max_size: number
 ): void {
-	let i: number = min_size
-	let overflow: boolean = false
 	let size: number = min_size
 	element.style.fontSize = `${size}px`
-
-	while (!overflow && i < max_size) {
-		overflow = is_overflow(parent)
-
-		if (!overflow) {
-			// If not overflowing, increase the font size
-			element.style.fontSize = `${i}px`
-			i++
-		}
+	while (!is_overflow(parent) && size < max_size) {
+		element.style.fontSize = `${size}px`
+		size++;
 	}
-	size = i - 2
-	// console.log('overflow', i, size, element)
-	element.style.fontSize = `${size}px`
 }
 
 export const parent_style = `display: inline-block;
