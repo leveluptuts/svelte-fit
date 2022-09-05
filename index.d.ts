@@ -1,6 +1,6 @@
-export declare const fit: (node: HTMLElement, { min_size, max_size }: {
-    min_size?: number | undefined;
-    max_size?: number | undefined;
+export declare const fit: (node: HTMLElement, { min_size, max_size }?: {
+    min_size?: number;
+    max_size?: number;
 }) => {
     destroy: () => void;
 };

@@ -1,6 +1,6 @@
 export const fit = (
 	node: HTMLElement,
-	{ min_size = 10, max_size = 100 }
+	{ min_size = 10, max_size = 100 } = { min_size: 10, max_size: 100 }
 ): { destroy: () => void } => {
 	const on_resize = (): void => {
 		if (node.parentElement) {
