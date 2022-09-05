@@ -4,6 +4,8 @@
 
 An extremely simple, no dependency fit text library.
 
+Svelte Kit used and tested
+
 Demo
 https://svelte.dev/repl/f249268c09674e1da2400051e7f391ca?version=3.50.0
 
@@ -33,6 +35,16 @@ https://svelte.dev/repl/f249268c09674e1da2400051e7f391ca?version=3.50.0
 </style>
 
 ```
+
+## Contribution
+
+### Possible Improvements
+
+I'd like to keep this package as tiny as possible, but that doesn't mean I don't want to make it better. Here are some ideas.
+
+- Choose width / both for choosing when to stop growing. width would prevent all whitespace breaks.
+- Throttling
+- Maybe dynamically add "parent div" from action itself
 
 ## Sponsors
 
