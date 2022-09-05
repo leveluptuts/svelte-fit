@@ -1,5 +1,7 @@
 # Svelte Fit 🏃‍♂️🏃‍♀️🏋️
 
+![Bundle Size Badge](https://badgen.net/bundlephobia/minzip/@leveluptuts/svelte-fit)
+
 An extremely simple, no dependency fit text library.
 
 Demo
