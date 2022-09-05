@@ -36,6 +36,17 @@ https://svelte.dev/repl/f249268c09674e1da2400051e7f391ca?version=3.50.0
 
 ```
 
+### API
+
+#### use:fit
+
+`use:fit={{min_size: 12, max_size:100 }}`
+
+| Options  | Default |
+| -------- | ------- |
+| min_size | 12      |
+| max_size | 100     |
+
 ## Contribution
 
 ### Possible Improvements

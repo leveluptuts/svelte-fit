@@ -1,4 +1,4 @@
-export const fit = (node, min_size = 12, max_size = 100) => {
+export const fit = (node, { min_size = 10, max_size = 100 }) => {
     const on_resize = () => {
         if (node.parentElement) {
             resize_text(node, node.parentElement, min_size, max_size);
