@@ -1,0 +1,20 @@
+{
+	"author": "Scott Tolinski",
+	"description": "",
+	"devDependencies": {
+		"typescript": "^4.8.2"
+	},
+	"exports": {
+		"default": "./index.js"
+	},
+	"keywords": [],
+	"license": "ISC",
+	"main": "index.js",
+	"name": "@leveluptuts/svelte-fit",
+	"scripts": {
+		"build": "tsc",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"type": "module",
+	"version": "1.0.0"
+}
