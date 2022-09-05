@@ -36,8 +36,8 @@ function resize_text(
 	let size: number = min_size
 	element.style.fontSize = `${size}px`
 	while (!is_overflow(parent) && size < max_size) {
+		size++
 		element.style.fontSize = `${size}px`
-		size++;
 	}
 }
 
