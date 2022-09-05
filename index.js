@@ -32,8 +32,4 @@ function resize_text(element, parent, min_size, max_size) {
     // console.log('overflow', i, size, element)
     element.style.fontSize = `${size}px`;
 }
-export const parent_style = `display: inline-block;
-		width: 100%;
-		height: 100%;
-		overflow-x: auto;
-		overflow-y: hidden;`;
+export const parent_style = `display: inline-block; width: 100%; height: 100%;`;

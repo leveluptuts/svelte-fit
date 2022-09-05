@@ -73,3 +73,11 @@ Learn Svelte!
 A Tasty Treats Podcast for Web Developers. Ft Wes Bos & Scott Tolinski
 
 Thank you!
+
+<!-- BOOK Yourself -->
+<!-- Flights, catering, hotel -->
+<!-- Arrive on Monday -->
+<!-- Arrive 14?, 15th? Whenever -->
+<!-- WS on 16th 17th, 18th -->
+<!-- On our own for hotel that aren't during the nights -->
+<!-- More central London location? -->
