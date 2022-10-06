@@ -44,7 +44,7 @@ function resize_text(
 		if (!overflow) {
 			// If not overflowing, increase the font size
 			element.style.fontSize = `${i}px`
-			i++
+			i += 2
 		}
 	}
 	size = i - 2
