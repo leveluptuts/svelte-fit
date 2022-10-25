@@ -8,14 +8,15 @@ export const fit = (
 		}
 	}
 
-	const resize_observer = new ResizeObserver(on_resize)
-	resize_observer.observe(node?.parentElement as HTMLElement)
+	on_resize()
+	// const resize_observer = new ResizeObserver(on_resize)
+	// resize_observer.observe(node?.parentElement as HTMLElement)
 
-	return {
-		destroy(): void {
-			resize_observer.disconnect()
-		},
-	}
+	// return {
+	// 	destroy(): void {
+	// 		resize_observer.disconnect()
+	// 	},
+	// }
 }
 
 function is_overflow({
